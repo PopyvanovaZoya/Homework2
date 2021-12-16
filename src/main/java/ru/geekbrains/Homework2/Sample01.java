@@ -54,10 +54,6 @@ public class Sample01 {
             for (int j = 0; j < sizeArr04; j++) {
                 arr04[i][i] = 1;
                 arr04[i][arr04.length - i - 1] = 1;
-               // if(i == j){
-                   // arr04[i][j] = 1;}
-               // else{
-                    //arr04[i][j] = 0;}
               System.out.print(arr04[i][j] + " ");
             }
             System.out.println();
